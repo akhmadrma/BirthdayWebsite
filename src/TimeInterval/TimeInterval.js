@@ -70,8 +70,8 @@ function TimeInterval() {
   }, [])
 
   return(
-    <Row className="d-flex justify-content-center align-items-center min-vh-100 text-center mb-4">
-              <Col>
+    <Row className="d-flex justify-content-center align-items-center min-vh-100 text-center mb-2">
+              <Col >
                 <h1 className="display-4">Our Relationship Time Counts</h1>
                 <h2>
                   {time.years} years {time.months} months {time.days} days

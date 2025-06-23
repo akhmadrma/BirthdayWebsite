@@ -4,7 +4,6 @@ import {
   faChevronRight,
   faChevronLeft
 } from "@fortawesome/free-solid-svg-icons";
-import "./SliderPhoto.css"
 
 
 
@@ -63,6 +62,7 @@ export default (props) => {
 
   return (
     <>
+    <div className="center">
       {/* carousel */}
       <div className="slideC">
         {props.data.map((item, i) => (
@@ -104,6 +104,7 @@ export default (props) => {
           color="#fff"
           size="2x"
         />
+      </div>
       </div>
     </>
   );
