@@ -40,13 +40,8 @@
   color: white;
   padding: 30px;
   align-items: flex-start;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.sliderContent h2 {
-  margin: 90px 0;
-}
 .sliderContent p {
   margin: 0;
   margin-bottom: 16px;
@@ -65,15 +60,30 @@
 
 .btns {
   
-  padding-top: 100px;
+  padding-top: 50px;
+  
 }
 
 .btns .btn {
   cursor: pointer;
+  color: white;
 }
 
 .btns .btn:last-child {
   margin-left: 40px;
 }
 
-/* normal css  */
+@media (max-width: 480px) {
+  .slideC {
+    perspective: 500px;
+    width: 75vw;
+    height: 50vh
+}
+  .slide{
+    width: 75vw;
+    height: 50vh;
+  }
+  .sliderContent{
+    padding: 15px;
+  }
+}

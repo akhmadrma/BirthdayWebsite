@@ -71,12 +71,12 @@ function TimeInterval() {
 
   return(
     <Row className="d-flex justify-content-center align-items-center min-vh-100 text-center mb-2">
-              <Col >
+              <Col className="timeInterval">
                 <h1 className="display-4">Our Relationship Time Counts</h1>
-                <h2>
+                <h2 className="fs-5">
                   {time.years} years {time.months} months {time.days} days
                 </h2>
-                <h3>
+                <h3 className="fs-1 fw-normal">
                   {time.hours}:{time.minutes}:{time.seconds}
                 </h3>
               </Col>

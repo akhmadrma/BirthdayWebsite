@@ -5,6 +5,7 @@ import { useFrame } from "@react-three/fiber";
 import TimeInterval from "../TimeInterval/TimeInterval";
 import SliderPhoto from "../SliderPhoto/SliderPhoto";
 import data from "../SliderPhoto/data";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function CenteredObject() {
   const boxRef = useRef();
@@ -26,15 +27,18 @@ return(
     <>
     <ambientLight intensity={0.2} />
       <directionalLight intensity={1} position={[5, 5, 5]} />
-    <OrbitControls enableZoom={false}/>
+    <OrbitControls enableZoom={false} enableRotate={false} enablePan={false}/>
     <PerspectiveCamera position={[0, 0, 0]} />
-    <ScrollControls pages={3}>
+    <ScrollControls pages={3} >
         <Scroll html className="center" >
-            {/* Konten scroll yang terpusat */}
-            <div className="scroll-content">
-              <TimeInterval className="d-flex justify-content-center align-items-center min-vh-100 text-center mb-2" />
+          <div className="container scroll-content">
+            <div className="row">
+              <TimeInterval />
+            </div>
+            <div className="row">
               <SliderPhoto data={data} activeSlide={2} />
             </div>
+          </div>
           </Scroll>
     <CenteredObject />
     </ScrollControls>
