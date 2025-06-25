@@ -79,9 +79,6 @@ function TimeInterval() {
                 <h3 className="fs-1 fw-normal">
                   {time.hours}:{time.minutes}:{time.seconds}
                 </h3>
-                <h3>
-                  Updated
-                </h3>
               </Col>
             </Row>
   )
