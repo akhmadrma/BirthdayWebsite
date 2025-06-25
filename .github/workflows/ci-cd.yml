@@ -28,5 +28,5 @@ jobs:
           server: ftp://145.79.14.246
           username: ${{ secrets.FTP_USERNAME }}  # Menggunakan username dari secrets
           password: ${{ secrets.FTP_PASSWORD }}  # Menggunakan password dari secrets
-          local-dir: ./build  # Direktori lokal tempat hasil build
+          local-dir: ./build/  # Direktori lokal tempat hasil build
           remote-dir: /home/u898392908/domains/cloud09.id/public_html  # Direktori remote tempat meng-upload aplikasi
