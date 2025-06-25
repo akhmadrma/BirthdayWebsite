@@ -40,11 +40,13 @@
   color: white;
   padding: 30px;
   align-items: flex-start;
+  overflow: hidden;
 }
 
 .sliderContent p {
   margin: 0;
   margin-bottom: 16px;
+   overflow: hidden;
 }
 
 /* normal css  */

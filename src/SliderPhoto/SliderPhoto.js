@@ -112,8 +112,16 @@ export default (props) => {
 
 const SliderContent = (props) => {
   return (
-    <div className="sliderContent">
-      <img src={props.imageUrl} style={{ width: '100%', height: 'auto', borderRadius: '12px' }} />
-    </div>
+    <div className="sliderContent" style={{ width: '100%', height: '450px', overflow: 'hidden' }}>
+  <img 
+    src={props.imageUrl} 
+    style={{ 
+      width: '100%', 
+      height: '100%', 
+      borderRadius: '12px', 
+      objectFit: 'cover' // Ensures the image covers the container while maintaining its aspect ratio
+    }} 
+  />
+</div>
   );
 };

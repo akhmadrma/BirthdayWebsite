@@ -27,7 +27,6 @@ return(
     <>
     <ambientLight intensity={0.2} />
       <directionalLight intensity={1} position={[5, 5, 5]} />
-    <OrbitControls enableZoom={false} enableRotate={false} enablePan={false}/>
     <PerspectiveCamera position={[0, 0, 0]} />
     <ScrollControls pages={3} >
         <Scroll html className="center" >

@@ -1,33 +1,31 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCameraRetro,
-  faDragon,
-  faFootballBall,
-  faGlassCheers,
-  faHelicopter
-} from "@fortawesome/free-solid-svg-icons";
-
+import photo0 from "../SliderPhoto/SliderPhoto/photo0.jpg";
+import photo1 from "../SliderPhoto/SliderPhoto/photo1.png";
+import photo2 from "../SliderPhoto/SliderPhoto/photo2.JPEG";
+import photo3 from "../SliderPhoto/SliderPhoto/photo3.JPEG";
+import photo4 from "../SliderPhoto/SliderPhoto/photo4.jpg";
 export default [
   {
     id: 1,
     bgColor: "#f2f2f2",
-    imageUrl : "https://pbs.twimg.com/media/Gt5Jif-WYAAyFdl?format=jpg&name=large",
-  },{
+    imageUrl : photo0,
+  },
+  {
     id: 2,
     bgColor: "#f2f2f2",
-    imageUrl : "https://pbs.twimg.com/media/Gt5Jif-WYAAyFdl?format=jpg&name=large",
-  },{
+    imageUrl : photo1,
+  },  {
     id: 3,
     bgColor: "#f2f2f2",
-    imageUrl : "https://pbs.twimg.com/media/Gt5Jif-WYAAyFdl?format=jpg&name=large",
-  },{
+    imageUrl : photo2,
+  },
+{
     id: 4,
     bgColor: "#f2f2f2",
-    imageUrl : "https://pbs.twimg.com/media/Gt5Jif-WYAAyFdl?format=jpg&name=large",
+    imageUrl : photo3,
   },{
     id: 5,
     bgColor: "#f2f2f2",
-    imageUrl : "https://pbs.twimg.com/media/Gt5Jif-WYAAyFdl?format=jpg&name=large",
+    imageUrl : photo4,
   },
 
 ];
