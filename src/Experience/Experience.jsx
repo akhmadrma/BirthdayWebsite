@@ -1,4 +1,4 @@
-import { OrbitControls, PerspectiveCamera, Scroll, ScrollControls } from "@react-three/drei";
+import { PerspectiveCamera, Scroll, ScrollControls } from "@react-three/drei";
 import { Love } from "./Love";
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
