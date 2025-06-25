@@ -7,7 +7,7 @@ import {
 
 
 
-export default (props) => {
+const SliderPhoto = (props) => {
   const [activeSlide, setactiveSlide] = useState(props.activeSlide);
 
   const next = () =>
@@ -119,9 +119,11 @@ const SliderContent = (props) => {
       width: '100%', 
       height: '100%', 
       borderRadius: '12px', 
-      objectFit: 'cover' // Ensures the image covers the container while maintaining its aspect ratio
-    }} 
+      objectFit: 'cover' }}
+    alt = "SliderContent"
   />
 </div>
   );
 };
+
+export default SliderPhoto;

@@ -3,7 +3,7 @@ import photo1 from "../SliderPhoto/SliderPhoto/photo1.png";
 import photo2 from "../SliderPhoto/SliderPhoto/photo2.JPEG";
 import photo3 from "../SliderPhoto/SliderPhoto/photo3.JPEG";
 import photo4 from "../SliderPhoto/SliderPhoto/photo4.jpg";
-export default [
+const data = [
   {
     id: 1,
     bgColor: "#f2f2f2",
@@ -29,3 +29,5 @@ export default [
   },
 
 ];
+
+export default data;
