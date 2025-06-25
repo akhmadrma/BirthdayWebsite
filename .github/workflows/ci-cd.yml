@@ -25,7 +25,7 @@ jobs:
       - name: Deploy to FTP server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp://145.79.14.246
+          server: ftp.cloud09.id
           username: ${{ secrets.FTP_USERNAME }}  # Menggunakan username dari secrets
           password: ${{ secrets.FTP_PASSWORD }}  # Menggunakan password dari secrets
           local-dir: ./build/  # Direktori lokal tempat hasil build
