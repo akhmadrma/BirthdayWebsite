@@ -67,6 +67,8 @@
 .btns .btn {
   cursor: pointer;
   color: white;
+  border-color: white;
+
 }
 
 .btns .btn:last-child {
