@@ -29,4 +29,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}  # Menggunakan username dari secrets
           password: ${{ secrets.FTP_PASSWORD }}  # Menggunakan password dari secrets
           local-dir: ./build/  # Direktori lokal tempat hasil build
-          server-dir: /home/u898392908/domains/cloud09.id/public_html/ 
+          server-dir: ./public_html/ 
