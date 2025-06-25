@@ -28,5 +28,4 @@ jobs:
           server: ftp.cloud09.id
           username: ${{ secrets.FTP_USERNAME }}  # Menggunakan username dari secrets
           password: ${{ secrets.FTP_PASSWORD }}  # Menggunakan password dari secrets
-          local-dir: ./build/  # Direktori lokal tempat hasil build
-          server-dir: ./public_html/ 
+          local-dir: ./build/  # Direktori lokal tempat hasil build 
